@@ -26,7 +26,7 @@
 
   
   
-  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <script src="https://cdn.tailwindcss.com"></script>
 
 
   <!-- 
@@ -82,9 +82,7 @@
             <a href="index.html/#features" class="navbar-link" data-navbar-link>Features</a>
           </li>
 
-          <li class="navbar-item">
-            <a href="#footer" class="navbar-link" data-navbar-link>Contact Us</a>
-          </li>
+         
 
         </ul>
 
@@ -118,23 +116,49 @@
           <div class="lg:w-1/2 md:w-2/3 mx-auto">
             <div class="flex flex-wrap -m-2">
               <form method="post" action="https://forms.un-static.com/forms/7bac6e16b34cb71f8f2c3a296484777f57349416" class="w-full">
-              <div class="p-2 w-1/2">
+              <div class="p-2 w-full">
                 <div class="relative">
                   
                   <label for="name" class="leading-7 text-[22px] text-gray-600">Name</label>
-                  <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-3 px-3 leading-8 transition-colors duration-200 ease-in-out mt-4">
-                </div>
-              </div>
-              <div class="p-2 w-1/2">
-                <div class="relative">
-                  <label for="email" class="leading-7 text-[22px] text-gray-600">Email</label>
-                  <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-3 px-3 leading-8 transition-colors duration-200 ease-in-out mt-4">
+                  <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-3 px-3 leading-8 transition-colors duration-200 ease-in-out mt-4" required>
                 </div>
               </div>
               <div class="p-2 w-full">
                 <div class="relative">
+                  <label for="email" class="leading-7 text-[22px] text-gray-600">Email</label>
+                  <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-3 px-3 leading-8 transition-colors duration-200 ease-in-out mt-4" required>
+                </div>
+              </div>
+              <div class="p-2 w-full">
+                <label for="cars" class="leading-7 text-[22px] text-gray-600">What are u looking for ?</label>
+              <div>
+                <input type="radio" id="huey" name="What are u looking for ?" value="Buying Services"
+                checked>
+         <label for="Buying Services">Buying Services</label>
+         </div>
+         <div>
+          <input type="radio" id="dewey" name="What are u looking for ?" value="Working as a freelancer ">
+          <label for="Working as a freelancer ">Working as a freelancer </label>
+        </div>
+       </div>
+   
+      <div class="p-2 w-full">
+        <label for="cars" class="leading-7 text-[22px] text-gray-600 mb-[50px]">Select Service</label>
+        <br>
+<select id="service" name="service" size="6" required>
+  <option value="Web Development">Web Development</option>
+  <option value="Graphics Design">Graphics Design</option>
+  <option value="Video Editing">Video Editing</option>
+  <option value="Content Creation">Content Creation</option>
+  <option value="Others">Others</option>
+</select>
+      </div>
+   
+       
+              <div class="p-2 w-full">
+                <div class="relative">
                   <label for="message" class="leading-7 text-[22px] text-gray-600">Message</label>
-                  <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 h-64 text-base outline-none text-gray-700 py-3 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out mt-4"></textarea>
+                  <textarea id="message" name="message" placeholder="Describe if you chose others" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 h-64 text-base outline-none text-gray-700 py-3 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out mt-4"></textarea>
                 </div>
               </div>
               

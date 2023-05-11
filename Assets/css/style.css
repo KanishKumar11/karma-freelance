@@ -142,6 +142,7 @@ body {
   background-color: var(--white);
   color: var(--purple-navy);
   font-size: 1.6rem;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar { width: 10px; }
@@ -1051,7 +1052,7 @@ body {
   .footer-brand { grid-column: auto; }
 
 }
-.active .logo img{
+.active .logo{
   color: black;
   content: url("../images/logo-black.svg");
 }
