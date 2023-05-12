@@ -1,400 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Freelancin by Karma Enterprises | Empowering & Elevating Businesses: Your Partner for Professional Excellence
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Get a Quote</title>
+    <link rel="stylesheet" href="./Assets/css/style.css">
 
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="vendor/jquery-ui/jquery-ui.min.css">
 
-
-
-  </title>
-
-  <!-- 
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./Assets/images/favicon.svg" type="image/svg+xml">
-
-  <!-- 
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./Assets/css/style.css">
-  <link rel="stylesheet" href="./Assets/css/contact.css">
-  <link rel="stylesheet" href="./output.css">
-
-  
-  
-  <script src="https://cdn.tailwindcss.com"></script>
-
-
-  <!-- 
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
-    rel="stylesheet">
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="Assets/css/contact.css">
 </head>
+<body>
 
-<body id="top">
+    <div class="main">
+
+        <section class="signup">
+            <!-- <img src="images/signup-bg.jpg" alt=""> -->
+            <h1>Get a Quote</h1>
+            <div class="containerd">
+                <div class="signup-content">
+                    <form method="POST" id="signup-form" class="signup-form" action="https://forms.un-static.com/forms/7bac6e16b34cb71f8f2c3a296484777f57349416">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="first_name">First name</label>
+                                <input type="text" class="form-input" name="first_name" id="first_name" />
+                            </div>
+                            <div class="form-group">
+                                <label for="last_name">Last name</label>
+                                <input type="text" class="form-input" name="last_name" id="last_name" />
+                            </div>
+                        </div>
+                        
+                          <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-input" name="email" id="email"/>
+                        
+                        </div>
+                       
+                           
+                            <div class="form-radio">
+                                <label for="What are looking for?">What are looking for?</label>
+                                <div class="form-flex">
+                                    
+                                    <input type="radio" name="buyingServices" value="buying services" id="buying services"  />
+                                    <label for="buying services">Buying Services</label>
+                                    <input type="radio" name="WorkingFreelancer" value="Working as a freelancer" id="WorkingFreelancer" />
+                                    <label for="WorkingFreelancer">Working as a freelancer</label>
+                                    <input type="radio" name="WorkingFreelancer" value="Working as a freelancer" id="disabled" />
+                                    <label for="WorkingFreelancer"></label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="city">Select Service</label>
+                              <div class="select-list">
+                                  <select name="city" id="city" required>
+                                      <option value="NY" disabled>Select Service</option>
+                                      <option value="web development">Web Development</option>
+                                      <option value="Graphics Design">Graphics Design</option>
+                                      <option value="Video Editing">Video Editing</option>
+                                      <option value="Content Creation">Content Creation</option>
+                                      <option value="SEO">SEO</option>
+                                      <option value="others">Others</option>
+                                  </select>
+                              </div>
+                              <div class="form-group">
+                                <label for="Message">Message(if choosen other services please specify below)</label>
+
+                                <input type="text" name="" id="texts">
+                              </div>
+                          </div>
+                          <input type="submit" name="submit" id="submit" class="form-submit" value="Submit"/>
+                      
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+  
+  
+  
+  
+  
+    <!-- 
+      - #GO TO TOP
+    -->
+  
+    <a href="#top" class="go-top  active" aria-label="Go To Top" data-go-top>
+      <ion-icon name="arrow-up-outline"></ion-icon>
+    </a>
+    <script src="./Assets/js/script.js"></script>
 
   <!-- 
-    - #HEADER
+    - ionicon link
   -->
-
-  <header class="header" data-header>
-    <div class="container">
-
-      <div class="overlay" data-overlay></div>
-
-      <a href="#" class="logo">
-        <img src="./Assets/images/logo.svg" alt="Logo" srcset="">
-      </a>
-
-      <nav class="navbar" data-navbar>
-
-        <div class="navbar-top">
-          <a href="#" class="logo"><img src="./Assets/images/logo.svg" alt="Logo" srcset=""></a>
-
-          <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
-            <ion-icon name="close-outline"></ion-icon>
-          </button>
-        </div>
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <a href="index.html/#home" class="navbar-link" data-navbar-link>Home</a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="index.html/#about" class="navbar-link" data-navbar-link>About</a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="index.html/#services" class="navbar-link" data-navbar-link>Services</a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="index.html/#features" class="navbar-link" data-navbar-link>Features</a>
-          </li>
-
-         
-
-        </ul>
-
-      </nav>
-
-      <a href="" class="btn">
-        <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
-
-        <span>Get A Quote</span>
-      </a>
-
-      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
-        <ion-icon name="menu-outline"></ion-icon>
-      </button>
-
-    </div>
-  </header>
-
-
-
-
-
-  <main>
-    <article>
-      <section class="text-gray-600 body-font relative mt-16">
-        <div class="container px-5 py-24 mx-auto">
-          <div class="flex flex-col text-center w-full mb-12">
-            <h1 class="sm:text-3xl text-[30px] font-medium title-font mb-4 text-gray-900">Get a Quote</h1>
-            <h2 class="lg:w-2/3 mx-auto leading-relaxed text-[25px]">Our team will contact you soon</h2>
-          </div>
-          <div class="lg:w-1/2 md:w-2/3 mx-auto">
-            <div class="flex flex-wrap -m-2">
-              <form method="post" action="https://forms.un-static.com/forms/7bac6e16b34cb71f8f2c3a296484777f57349416" class="w-full">
-              <div class="p-2 w-full">
-                <div class="relative">
-                  
-                  <label for="name" class="leading-7 text-[22px] text-gray-600">Name</label>
-                  <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-3 px-3 leading-8 transition-colors duration-200 ease-in-out mt-4" required>
-                </div>
-              </div>
-              <div class="p-2 w-full">
-                <div class="relative">
-                  <label for="email" class="leading-7 text-[22px] text-gray-600">Email</label>
-                  <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-3 px-3 leading-8 transition-colors duration-200 ease-in-out mt-4" required>
-                </div>
-              </div>
-              <div class="p-2 w-full">
-                <label for="cars" class="leading-7 text-[22px] text-gray-600">What are u looking for ?</label>
-              <div>
-                <input type="radio" id="huey" name="What are u looking for ?" value="Buying Services"
-                checked>
-         <label for="Buying Services">Buying Services</label>
-         </div>
-         <div>
-          <input type="radio" id="dewey" name="What are u looking for ?" value="Working as a freelancer ">
-          <label for="Working as a freelancer ">Working as a freelancer </label>
-        </div>
-       </div>
-   
-      <div class="p-2 w-full">
-        <label for="cars" class="leading-7 text-[22px] text-gray-600 mb-[50px]">Select Service</label>
-        <br>
-<select id="service" name="service" size="6" required>
-  <option value="Web Development">Web Development</option>
-  <option value="Graphics Design">Graphics Design</option>
-  <option value="Video Editing">Video Editing</option>
-  <option value="Content Creation">Content Creation</option>
-  <option value="Others">Others</option>
-</select>
-      </div>
-   
-       
-              <div class="p-2 w-full">
-                <div class="relative">
-                  <label for="message" class="leading-7 text-[22px] text-gray-600">Message</label>
-                  <textarea id="message" name="message" placeholder="Describe if you chose others" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 h-64 text-base outline-none text-gray-700 py-3 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out mt-4"></textarea>
-                </div>
-              </div>
-              
-              <div class="p-2 w-full">
-                <button class="flex mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Submit</button>
-              </div>
-              <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                <a class="text-blue-500" href="mailto:venugopalrao1802@gmail.com">venugopalrao1802@gmail.com</a>
-                
-            
-              </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
-    </article>
-</main>
-
-
-
-
-
-<!-- 
-  - #FOOTER
--->
-
-<footer class="footer" id="footer">
-
-  <div class="footer-top section">
-    <div class="container">
-
-      <div class="footer-brand">
-
-        <a href="#" class="logo"><img src="./Assets/images/logo.svg" alt=""></a>
-
-        <p class="text">
-          Unlock your potential with our services. From creative design to technical expertise, we connect you with skilled professionals who bring your ideas to life. Take your business to new heights with our trusted partner in professional excellence.
-        </p>
-
-        <ul class="social-list">
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-      <ul class="footer-list">
-
-        <li>
-          <p class="footer-list-title">Our links</p>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Home</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">About Us</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Services</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Team</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Blog</a>
-        </li>
-
-      </ul>
-
-      <ul class="footer-list">
-
-        <li>
-          <p class="footer-list-title">Our Services</p>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Strategy & Research</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Web Development</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Web Solution</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Digital Marketing</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">App Design</a>
-        </li>
-
-      </ul>
-
-      <ul class="footer-list">
-
-        <li>
-          <p class="footer-list-title">Other links</p>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">FAQ</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Portfolio</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Privacy Policy</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Terms & Conditions</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Support</a>
-        </li>
-
-      </ul>
-
-      <ul class="footer-list">
-
-        <li>
-          <p class="footer-list-title">Contact Us</p>
-        </li>
-
-        <li class="footer-item">
-
-          <div class="footer-item-icon">
-            <ion-icon name="call"></ion-icon>
-          </div>
-
-          <div>
-            <a href="tel:+91 7019922967" class="footer-item-link">+91 7019922967
-          </a>
-            <!-- <a href="tel:+2486871365" class="footer-item-link">+248-687-1365</a> -->
-          </div>
-
-        </li>
-
-        <li class="footer-item">
-
-          <div class="footer-item-icon">
-            <ion-icon name="mail"></ion-icon>
-          </div>
-
-          <div>
-            <a href="mailto:venugopalrao1802@gmail.com
-            " class="footer-item-link">venugopalrao1802@gmail.com
-          </a>
-            <!-- <a href="mailto:help@desinic.com" class="footer-item-link">help@desinic.com</a> -->
-          </div>
-
-        </li>
-
-        <li class="footer-item">
-
-          <div class="footer-item-icon">
-            <ion-icon name="location"></ion-icon>
-          </div>
-
-          <address class="footer-item-link">
-              ---
-          </address>
-
-        </li>
-
-      </ul>
-
-    </div>
-  </div>
-
-  <div class="footer-bottom">
-    <p class="copyright">
-      &copy; 2023 <a href="#" class="copyright-link">Freelancin by Karma Enterprises
-      </a>. All Right Reserved
-    </p>
-  </div>
-
-</footer>
-
-
-
-
-
-<!-- 
-  - #GO TO TOP
--->
-
-<a href="#top" class="go-top  active" aria-label="Go To Top" data-go-top>
-  <ion-icon name="arrow-up-outline"></ion-icon>
-</a>
-
-
-
-
-
-<!-- 
-  - custom js link
--->
-<script src="./Assets/js/script.js"></script>
-
-<!-- 
-  - ionicon link
--->
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery-ui/jquery-ui.min.js"></script>
+    <script src="vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="vendor/jquery-validation/dist/additional-methods.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
-
 </html>
