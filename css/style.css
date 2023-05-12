@@ -440,6 +440,7 @@ input.error {
 /*# sourceMappingURL=style.css.map */
 #disabled + label{
   width: 0;
+  display: none;
 }
 #texts{
   height: 200px;
