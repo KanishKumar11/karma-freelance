@@ -57,22 +57,24 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                              <label for="city">Select Service</label>
+                              <label for="select-service">Select Service</label>
                               <div class="select-list">
-                                  <select name="city" id="city" required>
+                                  <select name="select-service" id="city" required>
                                       <option value="NY" disabled>Select Service</option>
-                                      <option value="web development">Web Development</option>
-                                      <option value="Graphics Design">Graphics Design</option>
-                                      <option value="Video Editing">Video Editing</option>
-                                      <option value="Content Creation">Content Creation</option>
-                                      <option value="SEO">SEO</option>
-                                      <option value="others">Others</option>
+                                      <option value="web development" name="web development">Web Development</option>
+                                      <option value="Graphics Design" name="graphic design">Graphics Design</option>
+                                      <option value="Video Editing" name="video editing">Video Editing</option>
+                                      <option value="Content Creation" name="content creation">Content Creation</option>
+                                      <option value="SEO" name="SEO">SEO</option>
+                                      <option value="others" name="Others">Others</option>
                                   </select>
                               </div>
                               <div class="form-group">
                                 <label for="Message">Message(if choosen other services please specify below)</label>
 
-                                <input type="text" name="" id="texts">
+                                <!-- <input type="" name="Message" id="texts" spellcheck> -->
+                                <textarea name="Message" cols="40" rows="5" id="texts" spellcheck=""></textarea>
+
                               </div>
                           </div>
                           <input type="submit" name="submit" id="submit" class="form-submit" value="Submit"/>

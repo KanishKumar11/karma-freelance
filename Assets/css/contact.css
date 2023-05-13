@@ -1,5 +1,6 @@
 body{
-    background: var(--gradient-1);
+    /* background: var(--gradient-1); */
+    background-color: #000111;
 }
 h1{
     color:white;
