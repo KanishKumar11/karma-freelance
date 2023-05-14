@@ -1052,7 +1052,29 @@ body {
   .footer-brand { grid-column: auto; }
 
 }
-.active .logo{
+.active .logo img{
   color: black;
   content: url("../images/logo-black.svg");
+}
+.active #lt{
+  color:black;
+}
+#lt{
+  color: white;
+  font-family: 'Bruno Ace SC', cursive;
+  font-size: 23px;
+  display: block;
+  margin-top:60px;
+}
+#ld{
+  color: white;
+  font-family: 'Bruno Ace SC', cursive;
+  font-size: 20px;
+  display: inline-block;
+  margin-top:60px;
+}
+a.logo{
+  display: flex;
+  flex-direction: row;
+width: 400px;
 }
